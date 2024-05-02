@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Simple Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>CodeQueens</h1>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to our website, where learning and discovery await at every click!</h2>
+      <img src="image.webp" alt="not found">
+      <p>Just || DO || It</p>
+      <button>Contact Us</button>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="service">
+        <h3>Frontend Development</h3>
+        <p>HTML (Hypertext Markup Language): HTML provides the structure and content of web pages. It defines the elements that make up a webpage, such as headings, paragraphs, images, links, and more.
+          CSS (Cascading Style Sheets): CSS is used to style the HTML elements, defining their appearance, layout, and presentation. CSS controls aspects like colors, fonts, margins, padding, and positioning, allowing developers to create visually appealing and consistent designs.
+          JavaScript: JavaScript is a dynamic programming language that enables interactive and dynamic behavior on web pages. It allows developers to add functionality such as animations, form validation, dynamic content updates, and interactivity like dropdown menus or sliders..</p>
+      </div>
+      <div class="service">
+        <h3>Web Development</h3>
+        <p>Frontend Development: As mentioned earlier, frontend development focuses on building the client-side of a website or web application. It involves creating the user interface and user experience using technologies like HTML, CSS, and JavaScript. Frontend developers ensure that web pages are visually appealing, responsive, and interactive.
+          Backend Development: Backend development involves building the server-side of a website or web application. It includes writing code that runs on the server and interacts with databases, processes user requests, and generates dynamic content. Common backend technologies include server-side scripting languages like Python, Ruby, PHP, and frameworks like Node.js, Django, Flask, and Ruby on Rails.
+          Database Management: Web development often requires storing and retrieving data from databases. Database management involves designing database schemas, writing queries, and optimizing database performance. Common database systems used in web development include MySQL, PostgreSQL, MongoDB, and SQLite.
+          Web Design: Web design focuses on creating the visual layout and aesthetic of a website or web application. It involves designing graphics, selecting color schemes, choosing fonts, and creating a cohesive visual identity that aligns with the brand or purpose of the website.
+          User Experience (UX) Design: User experience design is concerned with optimizing the usability and accessibility of a website or web application. UX designers conduct user research, create wireframes and prototypes, and design intuitive navigation and interaction patterns to enhance the overall user experience.
+          Web Security: Web security is essential to protect websites and web applications from cyber threats and vulnerabilities. It involves implementing security best practices, such as using encryption, securing user authentication, and preventing common security vulnerabilities like cross-site scripting (XSS) and SQL injection.
+          Deployment and Maintenance: Once a website or web application is developed, it needs to be deployed to a web server to make it accessible on the internet. Deployment involves configuring servers, setting up domain names, and uploading files. Maintenance involves monitoring performance, fixing bugs, updating content, and implementing new features or improvements over time..</p>
+      </div>
+      <div class="service">
+        <h3>Backend Development</h3>
+        <p>Server-Side Logic: Backend developers write code that runs on the server and handles tasks such as processing user requests, interacting with databases, and generating dynamic content. This code is responsible for the logic and functionality of the website or web application.
+          Database Management: Backend developers design and maintain databases to store and retrieve data. This includes creating database schemas, writing queries, and optimizing database performance. Common database systems used in backend development include MySQL, PostgreSQL, MongoDB, and SQLite.
+          API Development: Many web applications require communication between the frontend and backend systems. Backend developers often create APIs (Application Programming Interfaces) that allow different parts of the application to communicate with each other. APIs define the endpoints and data formats that frontend and third-party services can use to interact with the backend.
+          Authentication and Authorization: Backend developers implement security measures to protect user data and ensure that only authorized users can access certain features or resources. This involves implementing user authentication (e.g., login/logout functionality) and authorization (e.g., role-based access control) mechanisms.
+          Performance Optimization: Backend developers optimize the performance of web applications by minimizing response times, reducing server load, and improving scalability. This may involve caching frequently accessed data, optimizing database queries, and using techniques like load balancing and horizontal scaling.
+          Server Configuration and Deployment: Backend developers configure web servers and deploy applications to hosting environments. This includes setting up server software (e.g., Apache, Nginx), managing server resources, and configuring security settings. Deployment involves uploading application code, configuring domain names, and ensuring that the application runs smoothly in the production environment..</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Kahkasha Bano. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
